@@ -1,0 +1,19 @@
+# Date
+date: "10072018"
+
+# Paths
+newimages: "/data2/dsl/ballads/neh6-and-missing/"
+images: "/data2/dsl/ballads/Finished-Images/"
+
+outputdir: "/data2/dsl/ballads/10072018-update/"
+keypoints: "/data2/dsl/ballads/Keypoints/10072018/"
+
+# SURF Parameters
+minHessian: 3000
+octaves: 8
+octaveLayers: 8
+min Size: 65 
+min Resp: 500.0
+
+scale: 1
+ratio: .75
