@@ -1,12 +1,13 @@
 # Date
-date: "10072018"
+date: 10072018
 
 # Paths
-newimages: "/data2/dsl/ballads/neh6-and-missing/"
-images: "/data2/dsl/ballads/Finished-Images/"
+newimages: /Users/arthurkoehl/ebba/new/
+images: /Users/arthurkoehl/ebba/finished/
 
-outputdir: "/data2/dsl/ballads/10072018-update/"
-keypoints: "/data2/dsl/ballads/Keypoints/10072018/"
+outputdir: /Users/arthurkoehl/ebba/update-10072018/
+keypoints: /Users/arthurkoehl/ebba/keypoints/10072018/
+matches: /Users/arthurkoehl/ebba/matches/10072018/
 
 # SURF Parameters
 minHessian: 3000

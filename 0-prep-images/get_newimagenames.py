@@ -4,6 +4,7 @@ from glob import glob
 
 def main():
     params = yaml.load(open("../settings.yml"))
+
     ofilepath = params["outputdir"] + "meta-data/" + "new-images.txt"
     PATH = params["newimages"]
     OPATH = params["images"]
