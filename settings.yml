@@ -2,12 +2,12 @@
 date: 10072018
 
 # Paths
-newimages: /Users/arthurkoehl/ebba/new/
-images: /Users/arthurkoehl/ebba/finished/
+newimages: /data2/dsl/ballads/new/
+images: /data2/dsl/ballads/Finished-Images/
 
-outputdir: /Users/arthurkoehl/ebba/update-10072018/
-keypoints: /Users/arthurkoehl/ebba/keypoints/10072018/
-matches: /Users/arthurkoehl/ebba/matches/10072018/
+outputdir: /data2/dsl/ballads/update-10072018/
+keypoints: /data2/ds/ballads/Keypoints/10072018/
+matches: /data2/dsl/ballads/Matches/10072018/
 
 # SURF Parameters
 minHessian: 3000
