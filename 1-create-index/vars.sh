@@ -1,4 +1,4 @@
-images=/Users/arthurkoehl/ebba/finished/
-keypoints=/Users/arthurkoehl/ebba/keypoints/10072018/
-matches=/Users/arthurkoehl/ebba/matches/10072018/
-output=/Users/arthurkoehl/ebba/update-10072018/
+images=/data2/dsl/ballads/Finished-Images/
+keypoints=/data2/dsl/ballads/Keypoints/10072018/
+matches=/data2/dsl/ballads/Matches/10072018/
+output=/data2/dsl/ballads/update-10072018/

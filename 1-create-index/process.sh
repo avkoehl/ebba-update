@@ -1,9 +1,9 @@
 #!/bin/bash
-source vars.sh
+source ./vars.sh
 now=$(date)
 
 echo "Start time : $now"
-  parallel --jobs 1 ./src/process.exe ::: $images*.jpg
+  parallel --jobs 100 ./src/process.exe ::: $images*.{jpg,tif}
 
 nnow=$(date)
 echo "Stop time : $nnow"

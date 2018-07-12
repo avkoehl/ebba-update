@@ -6,7 +6,7 @@ newimages: /data2/dsl/ballads/new/
 images: /data2/dsl/ballads/Finished-Images/
 
 outputdir: /data2/dsl/ballads/update-10072018/
-keypoints: /data2/ds/ballads/Keypoints/10072018/
+keypoints: /data2/dsl/ballads/Keypoints/10072018/
 matches: /data2/dsl/ballads/Matches/10072018/
 
 # SURF Parameters
