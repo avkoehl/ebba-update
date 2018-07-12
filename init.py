@@ -1,5 +1,7 @@
 import os
 import yaml
+from shutil import copyfile
+
 
 def main():
     params = yaml.load(open("./settings.yml"))
@@ -36,6 +38,13 @@ def main():
         print ("keypoints=" + params["keypoints"], file=f)
         print ("matches=" + params["matches"], file=f)
         print ("output=" + params["outputdir"], file=f)
+
+    print ("copying settings.yml to outputdir/meta-data")
+    copyfile("./settings.yml", params["outputdir"] + "/meta-data/settings.yml")
+
+    print ("writing readme")
+    with open (params["outputdir"] + "readme.txt", "w") as o:
+        print ("Update performed on ", params["date"], file=o)
 
 if __name__=="__main__":
     main()
