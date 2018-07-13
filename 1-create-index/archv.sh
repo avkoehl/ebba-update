@@ -3,7 +3,7 @@ source ./vars.sh
 now=$(date)
 
 echo "Start time : $now"
-  parallel --jobs 1 ./src/archv.exe ::: $images*.{jpg,tif}
+  parallel --jobs 100 ./src/archv.exe ::: $images*.{jpg,tif}
 
 nnow=$(date)
 echo "Stop time : $nnow"
