@@ -33,7 +33,7 @@ def main():
 
 
     print ("writing imgdir, keyptdir, matches, outputdir to bash variable")
-    with open ("./1-create-index/vars.sh", "w") as f:
+    with open ("./vars.sh", "w") as f:
         print ("images=" + params["images"], file=f)
         print ("keypoints=" + params["keypoints"], file=f)
         print ("matches=" + params["matches"], file=f)
