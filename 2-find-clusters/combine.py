@@ -19,8 +19,8 @@ def get_clusterid (name, clusters):
 def main():
     params = yaml.load(open("../settings.yml"))
     original_list = params["outputdir"] + "results/" + "adjacency-list.csv"
-    clustersfile = params["outputdir"] + "results/" + "clusters.txt"
-    output = params["outputdir"] + "results/" + "updated-adjacency-list.csv"
+    clustersfile = params["outputdir"] + "results/" + "clusters.tsv"
+    output = params["outputdir"] + "results/" + "combined.csv"
     clusters = get_clusters (clustersfile)
     
     f = open (original_list, "r")
