@@ -1,5 +1,5 @@
 #!/bin/bash
-source ./vars.sh
+source ../vars.sh
 now=$(date)
 
 echo "Start time : $now"
