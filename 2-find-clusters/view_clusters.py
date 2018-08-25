@@ -1,6 +1,6 @@
 import os
 
-imgpath = "thumbnails/"
+imgpath = "../../thumbnails/"
 
 def get_clusters (fname):
     clusters = []
@@ -15,7 +15,7 @@ def make_html (fname):
     path = imgpath 
     print ("<doctype HTML><head><title>visualize clusters</title></head><body>", file= o)
     print ("<style> img { width: 75px; } </style>", file=o)
-    print ("<p> download clusters file: <a href=\"../data/clusters/" + fname + "\">"+ fname + " </a></p>", file=o)
+    print ("<p> download clusters file: <a href=\"" + fname + "\">"+ fname + " </a></p>", file=o)
     clusters = get_clusters(fname)
     nimgs = 0
     for i in clusters:

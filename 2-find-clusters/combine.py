@@ -14,7 +14,7 @@ def get_clusterid (name, clusters):
         if name in c:
             idx = c
             break
-     return idx
+    return idx
 
 def main():
     params = yaml.load(open("../settings.yml"))

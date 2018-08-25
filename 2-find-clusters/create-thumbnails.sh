@@ -1,13 +1,14 @@
 #!/bin/bash
-source ../vars.sh
+source ./../vars.sh
 
 cwd=$(pwd)
 
-mkdir ./thumbnails
-thumbnails=./thumbnails
+mkdir thumbnails
+thumbnails=thumbnails
+
 
 cd $images
-magick mogrify -resize 75 -path $cwd$thumbnails *.jpg
-magick mogrify -resize 75 -path $cwd$thumbnails *.tif
+magick mogrify -resize 200 -path $cwd/$thumbnails *.jpg
+magick mogrify -resize 200 -path $cwd/$thumbnails *.tif
 
 cd $cwd
