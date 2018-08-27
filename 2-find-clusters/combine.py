@@ -12,7 +12,7 @@ def get_clusterid (name, clusters):
     idx = -1
     for i,c in enumerate(clusters):
         if name in c:
-            idx = c
+            idx = i
             break
     return idx
 
@@ -30,13 +30,18 @@ def main():
         line = line.rstrip()
         elements = line.split(",")
         name = elements[0]
+        matches = []
+        for e in elements:
+            n = e.split(' ')[0]
+            matches.append(n)
 
         # for cluster in clusters, see if name is in that list
         idx = get_clusterid (name, clusters)
 
         # splice in cluster 
         cid = str(idx)
-        elements.insert(1, cid)
+        matches.insert(0, name)
+        matches.insert(1, cid)
 
         # print new elements as a csv into new csv o
         result= (",").join(elements)
