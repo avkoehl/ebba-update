@@ -43,8 +43,8 @@ def main():
         matches.insert(0, name)
         matches.insert(1, cid)
 
-        # print new elements as a csv into new csv o
-        result= (",").join(elements)
+        # print new elements as a csv into new csv
+        result= (",").join(matches)
         print (result, file=o)
 
     f.close()
