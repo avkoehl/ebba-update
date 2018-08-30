@@ -1,13 +1,13 @@
 # Date
-date: 10072018
+date: 28102018
 
 # Paths
 newimages: /data2/dsl/ballads/new/
 images: /data2/dsl/ballads/Finished-Images/
 
-outputdir: /data2/dsl/ballads/update-10072018/
-keypoints: /data2/dsl/ballads/Keypoints/10072018/
-matches: /data2/dsl/ballads/Matches/10072018/
+outputdir: /data2/dsl/ballads/update-28102018/
+keypoints: /data2/dsl/ballads/Keypoints/28102018/
+matches: /data2/dsl/ballads/Matches/28102018/
 
 # SURF Parameters
 minHessian: 3000

@@ -3,7 +3,7 @@ source ../vars.sh
 now=$(date)
 
 echo "Start time : $now"
-  parallel --jobs 100 ./src/process.exe ::: $images*.{jpg,tif}
+  parallel --jobs 100 ./src/process.exe ::: $images*.jpg
 
 nnow=$(date)
 echo "Stop time : $nnow"
@@ -11,5 +11,5 @@ echo "Stop time : $nnow"
 echo "zipping "
 cd $keypoints
 zip keypoints.zip *
-mv keypoints.zip $output
+#mv keypoints.zip $output
 

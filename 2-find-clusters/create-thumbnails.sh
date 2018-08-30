@@ -9,6 +9,5 @@ thumbnails=thumbnails
 
 cd $images
 magick mogrify -resize 200 -path $cwd/$thumbnails *.jpg
-magick mogrify -resize 200 -path $cwd/$thumbnails *.tif
 
 cd $cwd
